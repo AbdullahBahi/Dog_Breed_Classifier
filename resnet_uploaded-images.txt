@@ -1,0 +1,166 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 16 key-value pairs.
+Below are 10 of them:
+ 1 key:                   Husky_02.jpg  label:                      husky
+ 2 key:              Hand_watch_03.jpg  label:                 hand watch
+ 3 key:                   Qoala_03.jpg  label:                      qoala
+ 4 key:                 Maltese_07.jpg  label:                    maltese
+ 5 key:                 Maltese_08.jpg  label:                    maltese
+ 6 key:            Bichon_frise_06.jpg  label:               bichon frise
+ 7 key:                   Zebra_04.jpg  label:                      zebra
+ 8 key:                   Husky_01.jpg  label:                      husky
+ 9 key:            Bichon_frise_05.jpg  label:               bichon frise
+10 key:                 Cheetah_02.jpg  label:                    cheetah
+
+     MATCH:
+
+                  Husky_02.jpg: 
+Real:                      husky   Classifier:              eskimo dog, husky
+
+                Maltese_07.jpg: 
+Real:                    maltese   Classifier: maltese dog, maltese terrier, maltese
+
+                Maltese_08.jpg: 
+Real:                    maltese   Classifier: maltese dog, maltese terrier, maltese
+
+                  Zebra_04.jpg: 
+Real:                      zebra   Classifier:                          zebra
+
+                  Husky_01.jpg: 
+Real:                      husky   Classifier:              eskimo dog, husky
+
+                Cheetah_02.jpg: 
+Real:                    cheetah   Classifier: cheetah, chetah, acinonyx jubatus
+
+             Coffee_mug_01.jpg: 
+Real:                 coffee mug   Classifier:                     coffee mug
+
+          Affenpinscher_04.jpg: 
+Real:              affenpinscher   Classifier: affenpinscher, monkey pinscher, monkey dog
+
+                    Cat_01.jpg: 
+Real:                        cat   Classifier:              egyptian cat, cat
+
+          Affenpinscher_03.jpg: 
+Real:              affenpinscher   Classifier: affenpinscher, monkey pinscher, monkey dog
+
+ NOT A MATCH:
+
+             Hand_watch_03.jpg: 
+Real:                 hand watch   Classifier:          stopwatch, stop watch
+
+                  Qoala_03.jpg: 
+Real:                      qoala   Classifier: koala, koala bear, kangaroo bear, native bear, phascolarctos cinereus
+
+           Bichon_frise_06.jpg: 
+Real:               bichon frise   Classifier:                     toy poodle
+
+           Bichon_frise_05.jpg: 
+Real:               bichon frise   Classifier:                     toy poodle
+
+               Airplane_02.jpg: 
+Real:                   airplane   Classifier:                       airliner
+
+               Football_04.jpg: 
+Real:                   football   Classifier:                    soccer ball
+
+# Total Images 16 # Matches: 10 # NOT Matches: 6
+
+     MATCH:
+
+                  Husky_02.jpg: 
+Real:                      husky   Classifier:              eskimo dog, husky  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                Maltese_07.jpg: 
+Real:                    maltese   Classifier: maltese dog, maltese terrier, maltese  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                Maltese_08.jpg: 
+Real:                    maltese   Classifier: maltese dog, maltese terrier, maltese  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                  Zebra_04.jpg: 
+Real:                      zebra   Classifier:                          zebra  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                  Husky_01.jpg: 
+Real:                      husky   Classifier:              eskimo dog, husky  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                Cheetah_02.jpg: 
+Real:                    cheetah   Classifier: cheetah, chetah, acinonyx jubatus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+             Coffee_mug_01.jpg: 
+Real:                 coffee mug   Classifier:                     coffee mug  
+PetLabelDog: 0  ClassLabelDog: 0
+
+          Affenpinscher_04.jpg: 
+Real:              affenpinscher   Classifier: affenpinscher, monkey pinscher, monkey dog  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Cat_01.jpg: 
+Real:                        cat   Classifier:              egyptian cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+          Affenpinscher_03.jpg: 
+Real:              affenpinscher   Classifier: affenpinscher, monkey pinscher, monkey dog  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+             Hand_watch_03.jpg: 
+Real:                 hand watch   Classifier:          stopwatch, stop watch  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                  Qoala_03.jpg: 
+Real:                      qoala   Classifier: koala, koala bear, kangaroo bear, native bear, phascolarctos cinereus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+           Bichon_frise_06.jpg: 
+Real:               bichon frise   Classifier:                     toy poodle  
+PetLabelDog: 1  ClassLabelDog: 1
+
+           Bichon_frise_05.jpg: 
+Real:               bichon frise   Classifier:                     toy poodle  
+PetLabelDog: 1  ClassLabelDog: 1
+
+               Airplane_02.jpg: 
+Real:                   airplane   Classifier:                       airliner  
+PetLabelDog: 0  ClassLabelDog: 0
+
+               Football_04.jpg: 
+Real:                   football   Classifier:                    soccer ball  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 16 # Matches: 10 # NOT Matches: 6
+
+ ** Statistics from calculates_results_stats() function:
+N Images: 16  N Dog Images:  6  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  66.7
+
+ ** Check Statistics - calculated from this function as a check:
+N Images: 16  N Dog Images:  6  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog:  80.0  Pct Corr Breed:  66.7
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :  16
+N Dog Images        :   6
+N Not-Dog Images    :  10
+ 
+pct_match :            62.5
+pct_correct_dogs :            100.0
+pct_correct_breed :            66.66666666666666
+pct_correct_notdogs :            100.0
+
+INCORRECT Dog Breed Assignment:
+Real:               bichon frise   Classifier:                     toy poodle
+Real:               bichon frise   Classifier:                     toy poodle
+
+** Total Elapsed Runtime: 0:0:2
